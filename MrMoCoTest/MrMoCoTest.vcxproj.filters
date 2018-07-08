@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="question_answers">
+      <UniqueIdentifier>{547a13c2-00fa-43df-b3f4-8a15f8be00b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="question_answers\matrix">
+      <UniqueIdentifier>{577c9594-b339-4274-94f1-618dd8863d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="question_answers\sorter">
+      <UniqueIdentifier>{6d124ba6-0edf-4373-90af-9df278c60003}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MatrixStringifier.h">
+      <Filter>question_answers\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="IRandomNumberSorterOutput.h">
+      <Filter>question_answers\sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberSorter.h">
+      <Filter>question_answers\sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="IRandomNumberSource.h">
+      <Filter>question_answers\sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberMersenneSource.h">
+      <Filter>question_answers\sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberSorterStdOutput.h">
+      <Filter>question_answers\sorter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MatrixStringifier.cpp">
+      <Filter>question_answers\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberSorter.cpp">
+      <Filter>question_answers\sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberMersenneSource.cpp">
+      <Filter>question_answers\sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberSorterStdOutput.cpp">
+      <Filter>question_answers\sorter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
